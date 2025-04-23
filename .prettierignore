@@ -1,0 +1,8 @@
+.github/
+buildsnippets/
+dist/
+docs/
+images/
+node_modules/
+recommendation/
+test/

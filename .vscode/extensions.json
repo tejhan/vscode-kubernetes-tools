@@ -2,6 +2,7 @@
     "recommendations": [
         "redhat.vscode-yaml",
         "dbaeumer.vscode-eslint",
-        "amodio.tsl-problem-matcher"
+        "amodio.tsl-problem-matcher",
+        "esbenp.prettier-vscode"
     ]
 }
