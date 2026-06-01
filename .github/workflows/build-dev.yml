@@ -33,12 +33,11 @@ jobs:
     - name: Prepare environment
       run: |
         npm install -g typescript
-        npm install -g gulp
         npm install -g vsce
     - name: Build
       run: npm run compile
     - name: Lint extension source
-      run: gulp tslint
+      run: npm run lint
     - name: Smoke test (Linux)
       run: xvfb-run -a npm run test
       if: runner.os == 'Linux'
